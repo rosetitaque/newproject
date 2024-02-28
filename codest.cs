@@ -4,7 +4,7 @@
         {
             throw new ArgumentNullException(nameof(content));
         }
-
+//yes
         var lines = content.SplitLines();
         if (lines.Length > 0)
         {
